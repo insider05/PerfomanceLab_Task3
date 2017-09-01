@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class AutoManager {
     //Синглтон
-    public AutoManager giveInstance(){
+    static public AutoManager giveInstance(){
         //implementation
         return new AutoManager();//Вставил, чтобы IDE не ругался.
     }
