@@ -13,4 +13,13 @@ public class Car extends Vehicle {
         car.brakingDistanceMax = Float.parseFloat(props[2]);
         return car;
     }
+
+    @Override
+    public String toString() {
+        return "Легковая машина{" +
+                "Название='" + name + '\'' +
+                ", Максимальный тормозной путь=" + brakingDistanceMax +
+                ", максимальная скорость=" + maxSpeed +
+                '}';
+    }
 }

@@ -13,4 +13,13 @@ public class Truck extends Vehicle{
         truck.cargoCapacity = Integer.parseInt(props[2]);
         return truck;
     }
+
+    @Override
+    public String toString() {
+        return "Грузовик{" +
+                "Название='" + name + '\'' +
+                ", Грузоподъемность=" + cargoCapacity +
+                ", Максимальная скорость=" + maxSpeed +
+                '}';
+    }
 }

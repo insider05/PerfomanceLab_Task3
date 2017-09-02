@@ -13,4 +13,13 @@ public class Motorcycle extends Vehicle {
         motorcycle.color = props[2];
         return motorcycle;
     }
+
+    @Override
+    public String toString() {
+        return "Мотоцикл{" +
+                "Название='" + name + '\'' +
+                ", Цвет='" + color + '\'' +
+                ", Максимальная скорость=" + maxSpeed +
+                '}';
+    }
 }
