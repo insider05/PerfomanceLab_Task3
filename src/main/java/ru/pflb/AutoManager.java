@@ -14,8 +14,10 @@ public class AutoManager {
         //implementation
     }
 
-    public void receiveSaleRequest(SaleRequest saleRequest){
+    //Возвращает TRUE, если продажа прошла успешно. Иначе возвращает FALSE.
+    public boolean receiveSaleRequest(SaleRequest saleRequest){
         //implementation
+        return true;//Вставил, чтобы IDE не ругался.
     }
 
     public Map<Integer, Vehicle> getVehicles(){
