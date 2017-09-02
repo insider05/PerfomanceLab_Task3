@@ -74,6 +74,7 @@ public class UIManger {
                         }
                         case 2: {
                             printVehicleList();
+                            cancel();
                             return;
                         }
                         case 3: {
@@ -84,9 +85,11 @@ public class UIManger {
                         }
                         case 4: {
                             printSellerList();
+                            cancel();
                             return;
                         }
                         case 5:{
+                            cancel();
                             alive = false;
                             return;
                         }
