@@ -199,7 +199,7 @@ public class UIManger {
         }
         System.out.println("Имеющийся транспорт:");
         for (Map.Entry<Integer, Vehicle> entry : autoManager.getVehicles().entrySet()) {
-            System.out.println(entry.getValue());
+            System.out.println("id: " + entry.getKey() + " " + entry.getValue());
         }
     }
 
